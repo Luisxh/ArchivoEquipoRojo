@@ -1,0 +1,109 @@
+¿QUÉ ES ANDROID?
+Android en un Sistema Operativo además de una plataforma de Software basada en el núcleo de Linux. Diseñada en un principio para dispositivos móviles, Android permite controlar dispositivos por medio de bibliotecas desarrolladlas o adaptados por Google mediante el lenguaje de programación Java. 
+
+Android es una plataforma de código abierto. Esto quiere decir, que cualquier desarrollador puede crear y desarrollar aplicaciones escritas con lenguaje C u otros lenguajes y compilarlas a código nativo de ARM (API de Android). 
+
+Inicialmente, Android fue desarrollada por Google Inc. aunque poco después se unió Open Handset Alliance, un consorcio de 48 compañías de Hardware, Software y telecomunicaciones, las cuales llegaron a un acuerdo para promocionar los estándares de códigos abiertos para dispositivos móviles. 
+
+
+Características
+•	Código abierto.
+•	Núcleo basado en el Kernel de Linux.
+•	Adaptable a muchas pantallas y resoluciones.
+•	Utiliza SQLite para el almacenamiento de datos.
+•	Ofrece diferentes formas de mensajería.
+•	Navegador web basado en WebKit incluido.
+•	Soporte de Java y muchos formatos multimedia.
+•	Soporte de HTML, HTML5, Adobe Flash Player, etc.
+•	Incluye un emulador de dispositivos, herramientas para depuración de memoria y análisis del rendimiento del software.
+•	Catálogo de aplicaciones gratuitas o pagas en el que pueden ser descargadas e instaladas (Google Play).
+•	Bluetooth.
+•	Google Talk desde su versión HoneyComb, para realizar video llamadas.
+•	Multitarea real de aplicaciones.
+
+Arquitectura
+•	Aplicaciones: incluyen un cliente de correo electrónico, programa de SMS, calendario, mapas, navegador, contactos y otros. Todas ellas escritas en Java.
+•	Marco de trabajo de aplicaciones: La arquitectura está diseñada para simplificar la reutilización de componentes; cualquier aplicación puede publicar sus capacidades y cualquier otra aplicación puede luego hacer uso de esas capacidades.
+•	Bibliotecas: incluye un conjunto de bibliotecas de C/C++ usadas por varios componentes del sistema.
+•	Runtime de Android: incluye un set de bibliotecas base que proporcionan la mayor parte de las funciones disponibles en las bibliotecas base del lenguaje Java. Cada aplicación Android corre su propio proceso, con su propia instancia de la máquina virtual Dalvik.
+•	Núcleo Linux: Android depende de Linux para los servicios base del sistema como seguridad, gestión de memoria, gestión de procesos, pila de red y modelo de controladores. 
+
+
+
+
+
+
+
+
+
+
+GIT
+Los sistemas de control de versiones son programas que tienen como objetivo controlar los cambios en el desarrollo de cualquier tipo de software, permitiendo conocer el estado actual de un proyecto, los cambios que se le han realizado a cualquiera de sus piezas, las personas que intervinieron en ellos, etc
+Git es uno de los sistemas de control de versiones más extendidos actualmente, su principal característica es que distribuido. Nace de la mano de Lius Torvalds en el año 2005 para gestionar el código fuente de Linux y poco a poco va ganando adeptos en comunidades como GitHub o ButBucket.
+
+Características de GIT
+GIT es distribuido, una de las diferenciaciones más importante con otros repositorios como SVN es que es un sistema distribuido. No es necesario un servidor central, cada programador tiene una copia completa del repositorio en su equipo y al hacer un cambio se propaga a todos los nodos.
+Esto permite un gran rendimiento en grandes desarrollos, las búsquedas son mucho más eficaces lo que supone una gran rapidez para detectar diferencias entre archivos.
+Ventajas y desventajas de GIT
+•	Gran rendimiento en programas grandes, gracias a ser un sistema distribuido, las búsquedas son mucho más eficaces lo que supone una gran rapidez para detectar diferencias entre archivos.
+•	Su sistema de ramas o branches es muy flexible, pudiendo crear ramas locales independientes de un repositorio centralizado. Se puede crear distintos branches para distintos usos, una de las ramas se deja estable con el código de producción, y los nuevos desarrollos se hacen en ramas paralelas, al finalizar basta con hacer un merge para unir los cambios. 
+
+Uso básico de GIT
+1.	git add . => Comprueba si hay cambios
+2.	git status => Comprueba el estado de repositorio actual
+3.	commit => Subida de archivos a tu repositorio local, a diferencia de en otros sistemas como SVN con el commit no se propaga el cambio.
+4.	git pull Actualiza tu versión de código, equivaldría al update de SVN
+5.	git push => Envía los cambios locales  al resto de nodos
+6.	git log Puedes ver el historial de cambios
+7.	git diff Ver los cambios realizados en un archivo
+
+
+
+ANDROID STUDIO
+Android Studio es un entorno de desarrollo integrado para la plataforma Android. Fue anunciado el 16 de mayo de 2013 en la conferencia Google I/O, y reemplazó a Eclipse como el IDE oficial para el desarrollo de aplicaciones para Android. La primera versión estable fue publicada en diciembre de 2014.
+Está basado en el software IntelliJ IDEA de JetBrains, y es publicado de forma gratuita a través de la Licencia Apache 2.0. Está disponible para las plataformas Microsoft Windows, Mac OS X y GNU/Linux.
+
+Características
+Renderización en tiempo real
+Consola de desarrollador: consejos de optimización, ayuda para la traducción, estadísticas de uso
+Soporte para construcción basada en Gradle.
+Refactorización especifica de Android y arreglos rápidos.
+Herramientas Lint para detectar problemas de rendimiento, usabilidad, compatibilidad de versiones, y otros problemas.
+Plantillas para crear diseños comunes de Android y otros componentes.
+Soporte para programar aplicaciones para Android Wear.
+Android Studio ofrece la posibilidad de ver en directo los cambios al diseño de las aplicaciones en las diferentes resoluciones que soporta Android. La misma interfaz nos permite ver cómo aparece la aplicación con cada traducción.
+También tenemos información útil en el margen de la pantalla de código, como iconos o colores según los mencionemos en el código. Además, Android Studio incluye integración con Google Cloud Messaging, para no tener que salir del IDE.
+
+
+
+
+Bases de datos
+Las bases de datos son una herramienta de gran potencia en la creación de aplicaciones informáticas. Hasta hace muy poco resultaba muy costoso y complejo incorporar bases de datos a nuestras aplicaciones. No obstante, Android incorpora la librería SQLite que nos permitirá utilizar bases de datos mediante el lenguaje SQL, de una forma sencilla y utilizando muy pocos recursos del sistema. 
+
+
+¿QUÉ ES SQLITE?
+
+Es un ligero motor de bases de datos de código abierto, que se caracteriza por mantener el almacenamiento de información persistente de forma sencilla. A diferencia de otros SGBD como MySQL,SQL Server y Oracle DB, SQLite tiene las siguientes ventajas:
+•	No requiere el soporte de un servidor: SQLite no ejecuta un proceso para administrar la información, si no que implementa un conjunto de librerías encargadas de la gestión.
+•	No necesita configuración: Libera al programador de todo tipo de configuraciones de puertos, tamaños, ubicaciones, etc.
+•	Usa un archivo para el esquema: Crea un archivo para el esquema completo de una base de datos, lo que permite ahorrarse preocupaciones de seguridad, ya que los datos de las aplicaciones Android no pueden ser accedidos por contextos externos.
+•	Es de Código Abierto: Esta disponible al dominio publico de los desarrolladores al igual que sus archivos de compilación e instrucciones de escalabilidad.
+Es por eso que SQLite es una tecnología cómoda para los dispositivos móviles. Su simplicidad, rapidez y usabilidad permiten un desarrollo muy amigable.
+SQLite tiene ciertas limitaciones en algunas operaciones. Por ejemplo, no se puede implementar las clausulas FULL OUTER JOIN y RIGHT OUTER JOIN. Aunque en la mayoría de casos esto no afectará, siempre habrán otras alternativas como JavaDB o MongoDB.
+
+
+
+
+APLICACIONES MÓVILES
+
+Una aplicación móvil, apli o app (en inglés) es una aplicación informática diseñada para ser ejecutada en teléfonos inteligentes, tabletas y otros dispositivos móviles. Por lo general se encuentran disponibles a través de plataformas de distribución, operadas por las compañías propietarias de los sistemas operativos móviles como Android, iOS, BlackBerry OS,Windows Phone, entre otros.
+
+
+Aplicaciones Nativas
+Las aplicaciones nativas son aquellas desarrolladas bajo un lenguaje y entorno de desarrollo especifico, lo cual permite, que su funcionamiento sea muy fluido y estable para el sistema operativo que fue creada. 
+
+Aplicaciones Web
+A continuación se encuentran, las aplicaciones web o web application.Son aquellas desarrolladas usando lenguajes para el desarrollo web como lo son html, css y javascript y un framework para el desarrollo de aplicaciones web, como por ejemplo jquery mobile, Sencha, Kendo UI, entre otros.. Se podría decir que este tipo de aplicaciones es muy usado para brindar accesibilidad a la información desde cualquier dispositivo, sin importar el sistema operativo, ya que solo se necesita contar con un navegador para acceder a esta. 
+
+Aplicaciones Híbridas
+Tienen un poco de cada tipo de  las aplicaciones ya nombradas. Este tipo de aplicaciones se desarrolla utilizando lenguajes de desarrollo web y un framework dedicado para la creación de aplicaciones híbridas, como por ejemplo phonegap, titanium appacelerator, Steroids, entre otros. La facilidad que brinda este tipo de desarrollo es que no hay un entorno específico el cual hay que utilizar para su desarrollo y la mayoría de las herramientas son de uso gratuito, también pudiendo integrarlo con las herramientas de aplicaciones nativas.

@@ -9,3 +9,399 @@ Comandos que se utilizaron para la creación de la página:
 -git push
 -git log
 -git diff
+-git rm
+-git clone
+-git log 
+-git log --oneline
+-git log --stat
+
+
+--------------------------------------------------------
+f563aea Modificar archivos
+dfde572 Se agrego Comandos
+ce0dd85 Se modificó menú en archivos
+feb0b21 Nueva página
+d901d89 Cambios de páginas
+74da662 Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+b7186c5 Mi página Ale
+0ba73b8 Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+5604421 EQUIPOROJO Modificado y adjuntado
+f490779 Se cambiaron imagenes
+a9c52eb Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+5fbfef1 Mi pagina web isma
+50f791d adelante
+d308902 se crea pagina git y se agrega enlace al index
+7f9221f Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+7658bbb Cambio nombre de carpeta
+5aa6907 En proceso de creacion heads
+f168c20 Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+4693f7a Commit comandos utilizados
+fb5466c Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+c5435dc Footer de pagina web
+9cc2e99 Commit imagenes
+f0cbbe8 Se agrego información
+5d8abea cambios con bootstrap aplicado
+0e448a4 creacion de estilos y pagina principal
+8966fc7 pequeño avance del trabjo
+47ab859 Initial commit
+---------------------------------------------------------------
+
+_______________________________________________________________________
+$ git log --stat
+commit f563aead9af22e22f101b989e81045d9576f58d6
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Fri Jan 15 07:10:44 2016 -0600
+
+    Modificar archivos
+
+ EQUIPOROJO/Android.html                  | 2 +-
+ EQUIPOROJO/AndroidStudio.html            | 2 +-
+ "EQUIPOROJO/Aplicaci\303\263nMovil.html" | 2 +-
+ EQUIPOROJO/gitWeb.html                   | 2 +-
+ EQUIPOROJO/index.html                    | 7 ++-----
+ EQUIPOROJO/post.html                     | 2 +-
+ 6 files changed, 7 insertions(+), 10 deletions(-)
+
+commit dfde5723fcbf0b6b7999ba71acb78f3565165e55
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Fri Jan 15 03:58:49 2016 -0600
+
+    Se agrego Comandos
+
+ EQUIPOROJO/Comandos.txt | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit ce0dd851cfbbaf6190be27894843805056f58414
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Fri Jan 15 03:54:44 2016 -0600
+
+    Se modificó menú en archivos
+
+ EQUIPOROJO/Android.html                               |  16 +++++++++++-----
+ EQUIPOROJO/AndroidStudio.html                         |  16 +++++++++++-----
+ "EQUIPOROJO/Aplicaci\303\263nMovil.html"              |  18 ++++++++++++------
+ EQUIPOROJO/Imagenes/Aplicaciones.jpg                  | Bin 0 -> 80135 bytes
+ EQUIPOROJO/Imagenes/aplicaciones-android-1000x243.jpg | Bin 80135 -> 0 bytes
+ EQUIPOROJO/gitWeb.html                                |  11 +++++++----
+ EQUIPOROJO/index.html                                 |   9 ++++++---
+ EQUIPOROJO/post.html                                  |  13 ++++++++-----
+ 8 files changed, 55 insertions(+), 28 deletions(-)
+
+commit feb0b21268ccdd6f611b55bdff26fb798d371181
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Fri Jan 15 03:20:54 2016 -0600
+
+    Nueva página
+
+ "EQUIPOROJO/Aplicaci\303\263nMovil.html" | 137 +++++++++++++++++++++++++++++++
+ 1 file changed, 137 insertions(+)
+
+commit d901d8974625af7ae08e4b8202b13d85f855e7a1
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Fri Jan 15 02:52:59 2016 -0600
+
+    Cambios de páginas
+
+ EQUIPOROJO/Android.html                         |   8 +-
+ EQUIPOROJO/AndroidStudio.html                   | 148 ++++++++++++++++++++++++
+ EQUIPOROJO/Imagenes/AndroidStudio.jpg           | Bin 0 -> 10775 bytes
+ EQUIPOROJO/Imagenes/starting android studio.jpg | Bin 10775 -> 0 bytes
+ 4 files changed, 153 insertions(+), 3 deletions(-)
+
+commit 74da662f76a2b1d7fe39f0bf43585b7ec6cfc378
+Merge: b7186c5 0ba73b8
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Fri Jan 15 02:17:21 2016 -0600
+
+    Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+
+commit b7186c5a53e1753a5ddba18b48d5488e2392fc4d
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Fri Jan 15 02:17:08 2016 -0600
+
+    Mi página Ale
+
+ EQUIPOROJO/Android.html                            | 159 +++++++++++++++++++++
+ EQUIPOROJO/Imagenes/Android1.jpg                   | Bin 0 -> 64185 bytes
+ .../Imagenes/android-wallpaper5_2560x1600_1.jpg    | Bin 64185 -> 0 bytes
+ 3 files changed, 159 insertions(+)
+
+commit 0ba73b85757be851b14542f85652b5415f1a9de9
+Merge: 5604421 f490779
+Author: Jose Galvan <isma_slip@hotmail.com>
+Date:   Fri Jan 15 02:00:02 2016 -0600
+
+    Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+
+commit 560442193fad5e70b959bc5744df09fe5e577925
+Author: Jose Galvan <isma_slip@hotmail.com>
+Date:   Fri Jan 15 01:55:54 2016 -0600
+
+    EQUIPOROJO Modificado y adjuntado
+
+ EQUIPOROJO/Thumbs.db                | Bin 0 -> 13312 bytes
+ EQUIPOROJO/css/blog-post.css        |  13 ++
+ EQUIPOROJO/gitWeb.html              | 104 ++++++++++++++
+ EQUIPOROJO/imagenes/Thumbs.db       | Bin 0 -> 16384 bytes
+ EQUIPOROJO/imagenes/bases_datos.jpg | Bin 0 -> 26356 bytes
+ EQUIPOROJO/imagenes/git.png         | Bin 0 -> 9193 bytes
+ EQUIPOROJO/index.html               |   6 +-
+ EQUIPOROJO/post.html                | 280 ++++++++++++++++++++++++++++++++++++
+ 8 files changed, 398 insertions(+), 5 deletions(-)
+
+commit f4907793eda4bd465b2b67f8d1846228a67f0bd0
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Fri Jan 15 01:51:24 2016 -0600
+
+    Se cambiaron imagenes
+
+ EQUIPOROJO/Imagenes/650_1200.png                       | Bin 0 -> 129760 bytes
+ EQUIPOROJO/Imagenes/AndroidBase.jpg                    | Bin 0 -> 52896 bytes
+ EQUIPOROJO/Imagenes/Android_apps_2013.jpg              | Bin 0 -> 37480 bytes
+ EQUIPOROJO/Imagenes/InicioAndroid.jpg                  | Bin 0 -> 43621 bytes
+ EQUIPOROJO/Imagenes/android-sqlite.png                 | Bin 0 -> 15768 bytes
+ EQUIPOROJO/Imagenes/android-wallpaper5_2560x1600_1.jpg | Bin 0 -> 64185 bytes
+ EQUIPOROJO/Imagenes/android.jpg                        | Bin 0 -> 108070 bytes
+ EQUIPOROJO/Imagenes/aplicaciones-android-1000x243.jpg  | Bin 0 -> 80135 bytes
+ EQUIPOROJO/Imagenes/descarga.jpg                       | Bin 0 -> 8672 bytes
+ EQUIPOROJO/Imagenes/git.png                            | Bin 0 -> 9193 bytes
+ EQUIPOROJO/Imagenes/images.png                         | Bin 0 -> 1926 bytes
+ EQUIPOROJO/Imagenes/starting android studio.jpg        | Bin 0 -> 10775 bytes
+ ROJO/Imagenes/650_1200.png                             | Bin 129760 -> 0 bytes
+ ROJO/Imagenes/AndroidBase.jpg                          | Bin 52896 -> 0 bytes
+ ROJO/Imagenes/Android_apps_2013.jpg                    | Bin 37480 -> 0 bytes
+ ROJO/Imagenes/InicioAndroid.jpg                        | Bin 43621 -> 0 bytes
+ ROJO/Imagenes/SQLite370.svg.png                        | Bin 6219 -> 0 bytes
+ ROJO/Imagenes/Thumbs.db                                | Bin 142848 -> 0 bytes
+ ROJO/Imagenes/android-sqlite.png                       | Bin 15768 -> 0 bytes
+ ROJO/Imagenes/android-wallpaper5_2560x1600_1.jpg       | Bin 64185 -> 0 bytes
+ ROJO/Imagenes/android.jpg                              | Bin 108070 -> 0 bytes
+ ROJO/Imagenes/aplicaciones-android-1000x243.jpg        | Bin 80135 -> 0 bytes
+ ROJO/Imagenes/descarga.jpg                             | Bin 8672 -> 0 bytes
+ ROJO/Imagenes/git-migration-prepare-convert-sync.png   | Bin 24529 -> 0 bytes
+ ROJO/Imagenes/git.png                                  | Bin 9193 -> 0 bytes
+ ROJO/Imagenes/images.png                               | Bin 1926 -> 0 bytes
+ ROJO/Imagenes/starting android studio.jpg              | Bin 10775 -> 0 bytes
+ 27 files changed, 0 insertions(+), 0 deletions(-)
+
+commit a9c52eb6d86aca6419b56d8d0921f490ed7acff8
+Merge: 5fbfef1 50f791d
+Author: Jose Galvan <isma_slip@hotmail.com>
+Date:   Fri Jan 15 01:31:47 2016 -0600
+
+    Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+
+commit 5fbfef1567edfbc5edf79dd6740941e35ab87856
+Author: Jose Galvan <isma_slip@hotmail.com>
+Date:   Fri Jan 15 01:28:08 2016 -0600
+
+    Mi pagina web isma
+
+ EQUIPO ROJO/css/blog-post.css        |  13 ++
+ EQUIPO ROJO/imagenes/bases_datos.jpg | Bin 0 -> 26356 bytes
+ EQUIPO ROJO/index.html               |   9 +-
+ EQUIPO ROJO/post.html                | 280 +++++++++++++++++++++++++++++++++++
+ 4 files changed, 299 insertions(+), 3 deletions(-)
+
+commit 50f791d63bddac7f8c0211b670177947bfd3e7f4
+Merge: d308902 7f9221f
+Author: luis hdez <luishernandezutez@gmail.com>
+Date:   Fri Jan 15 00:37:10 2016 -0600
+
+    adelante
+
+commit d308902379ac223545d9fba3839b4d029250e62d
+Author: luis hdez <luishernandezutez@gmail.com>
+Date:   Fri Jan 15 00:31:18 2016 -0600
+
+    se crea pagina git y se agrega enlace al index
+
+ EQUIPO ROJO/git.png           | Bin 0 -> 9193 bytes
+ EQUIPO ROJO/gitWeb.html       |  92 ++++++++++++++++++++++++++++++++++++++++++
+ EQUIPO ROJO/index.html        |   2 +-
+ ROJO/Imagenes/Thumbs.db       | Bin 0 -> 142848 bytes
+ ROJO/Imagenes/git.png         | Bin 0 -> 9193 bytes
+ ROJO/Imagenes/hosting-git.png | Bin 9193 -> 0 bytes
+ ROJO/trabajo.html             |   6 ---
+ gitWeb.html                   |  91 +++++++++++++++++++++++++++++++++++++++++
+ 8 files changed, 184 insertions(+), 7 deletions(-)
+
+commit 7f9221fd1c041f5ad422032927e7bc7ef0afb06c
+Merge: 7658bbb 5aa6907
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Thu Jan 14 23:57:32 2016 -0600
+
+    Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+
+commit 7658bbb1b4f732b3362a22298fa6a2c82178595b
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Thu Jan 14 23:57:04 2016 -0600
+
+    Cambio nombre de carpeta
+
+ EQUIPO ROJO/LICENSE                                |  202 -
+ EQUIPO ROJO/README.md                              |   26 -
+ EQUIPO ROJO/css/bootstrap.css                      | 6760 --------------------
+ EQUIPO ROJO/css/bootstrap.min.css                  |    6 -
+ EQUIPO ROJO/fonts/glyphicons-halflings-regular.eot |  Bin 20127 -> 0 bytes
+ EQUIPO ROJO/fonts/glyphicons-halflings-regular.svg |  288 -
+ EQUIPO ROJO/fonts/glyphicons-halflings-regular.ttf |  Bin 45404 -> 0 bytes
+ .../fonts/glyphicons-halflings-regular.woff        |  Bin 23424 -> 0 bytes
+ .../fonts/glyphicons-halflings-regular.woff2       |  Bin 18028 -> 0 bytes
+ EQUIPO ROJO/index.html                             |  111 -
+ EQUIPO ROJO/js/bootstrap.js                        | 2363 -------
+ EQUIPO ROJO/js/bootstrap.min.js                    |    7 -
+ EQUIPO ROJO/js/jquery.js                           |    4 -
+ EQUIPOROJO/LICENSE                                 |  202 +
+ EQUIPOROJO/README.md                               |   26 +
+ EQUIPOROJO/css/bootstrap.css                       | 6760 ++++++++++++++++++++
+ EQUIPOROJO/css/bootstrap.min.css                   |    6 +
+ EQUIPOROJO/fonts/glyphicons-halflings-regular.eot  |  Bin 0 -> 20127 bytes
+ EQUIPOROJO/fonts/glyphicons-halflings-regular.svg  |  288 +
+ EQUIPOROJO/fonts/glyphicons-halflings-regular.ttf  |  Bin 0 -> 45404 bytes
+ EQUIPOROJO/fonts/glyphicons-halflings-regular.woff |  Bin 0 -> 23424 bytes
+ .../fonts/glyphicons-halflings-regular.woff2       |  Bin 0 -> 18028 bytes
+ EQUIPOROJO/index.html                              |  111 +
+ EQUIPOROJO/js/bootstrap.js                         | 2363 +++++++
+ EQUIPOROJO/js/bootstrap.min.js                     |    7 +
+ EQUIPOROJO/js/jquery.js                            |    4 +
+ 26 files changed, 9767 insertions(+), 9767 deletions(-)
+
+commit 5aa69078c50b16b281b85f16fea04cc8e407831a
+Author: Jose Galvan <isma_slip@hotmail.com>
+Date:   Thu Jan 14 23:42:11 2016 -0600
+
+    En proceso de creacion heads
+
+ EQUIPO ROJO/index.html | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+commit f168c20660939cd22f534fb6ea55abf0bfb416cd
+Merge: 4693f7a fb5466c
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Thu Jan 14 23:33:32 2016 -0600
+
+    Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+
+commit 4693f7a85c38c9bed346aa65b4e93ebd9f480b1f
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Thu Jan 14 23:33:20 2016 -0600
+
+    Commit comandos utilizados
+
+ Comandos.txt | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit fb5466c5f41a9b8fe1e2b396036ce736bc585935
+Merge: c5435dc 9cc2e99
+Author: Jose Galvan <isma_slip@hotmail.com>
+Date:   Thu Jan 14 23:30:35 2016 -0600
+
+    Merge branch 'master' of https://github.com/Luisxh/ArchivoEquipoRojo
+
+commit c5435dcb9879fb878e2bf71150e71c8b64e12790
+Author: Jose Galvan <isma_slip@hotmail.com>
+Date:   Thu Jan 14 23:27:59 2016 -0600
+
+    Footer de pagina web
+
+ EQUIPO ROJO/index.html | 26 +++++++++++++++++++++++---
+ 1 file changed, 23 insertions(+), 3 deletions(-)
+
+commit 9cc2e99c23ff5663925117cd063e4cf0ab89013e
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Thu Jan 14 23:27:47 2016 -0600
+
+    Commit imagenes
+
+ ROJO/Imagenes/650_1200.png                           | Bin 0 -> 129760 bytes
+ ROJO/Imagenes/AndroidBase.jpg                        | Bin 0 -> 52896 bytes
+ ROJO/Imagenes/Android_apps_2013.jpg                  | Bin 0 -> 37480 bytes
+ ROJO/Imagenes/InicioAndroid.jpg                      | Bin 0 -> 43621 bytes
+ ROJO/Imagenes/SQLite370.svg.png                      | Bin 0 -> 6219 bytes
+ ROJO/Imagenes/android-sqlite.png                     | Bin 0 -> 15768 bytes
+ ROJO/Imagenes/android-wallpaper5_2560x1600_1.jpg     | Bin 0 -> 64185 bytes
+ ROJO/Imagenes/android.jpg                            | Bin 0 -> 108070 bytes
+ ROJO/Imagenes/aplicaciones-android-1000x243.jpg      | Bin 0 -> 80135 bytes
+ ROJO/Imagenes/descarga.jpg                           | Bin 0 -> 8672 bytes
+ ROJO/Imagenes/git-migration-prepare-convert-sync.png | Bin 0 -> 24529 bytes
+ ROJO/Imagenes/hosting-git.png                        | Bin 0 -> 9193 bytes
+ ROJO/Imagenes/images.png                             | Bin 0 -> 1926 bytes
+ ROJO/Imagenes/starting android studio.jpg            | Bin 0 -> 10775 bytes
+ 14 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f0cbbe8eb707cbdd663e6ceab78b2e41275486a5
+Author: AlejandraAguirre <alejandraaguirre680@gmail.com>
+Date:   Thu Jan 14 23:23:40 2016 -0600
+
+    Se agrego información
+
+ "ROJO/Informaci\303\263n/Informaci\303\263n.txt" | 109 +++++++++++++++++++++++
+ 1 file changed, 109 insertions(+)
+
+commit 5d8abea710d85036685cf3adc7685fad89fcdb26
+Author: Julio Cesar Perez <tsukiitou@gmail.com>
+Date:   Thu Jan 14 23:09:15 2016 -0600
+
+    cambios con bootstrap aplicado
+
+ EQUIPO ROJO/LICENSE                                |  202 +
+ EQUIPO ROJO/README.md                              |   26 +
+ EQUIPO ROJO/css/bootstrap.css                      | 6760 ++++++++++++++++++++
+ EQUIPO ROJO/css/bootstrap.min.css                  |    6 +
+ EQUIPO ROJO/fonts/glyphicons-halflings-regular.eot |  Bin 0 -> 20127 bytes
+ EQUIPO ROJO/fonts/glyphicons-halflings-regular.svg |  288 +
+ EQUIPO ROJO/fonts/glyphicons-halflings-regular.ttf |  Bin 0 -> 45404 bytes
+ .../fonts/glyphicons-halflings-regular.woff        |  Bin 0 -> 23424 bytes
+ .../fonts/glyphicons-halflings-regular.woff2       |  Bin 0 -> 18028 bytes
+ EQUIPO ROJO/index.html                             |   91 +
+ EQUIPO ROJO/js/bootstrap.js                        | 2363 +++++++
+ EQUIPO ROJO/js/bootstrap.min.js                    |    7 +
+ EQUIPO ROJO/js/jquery.js                           |    4 +
+ 13 files changed, 9747 insertions(+)
+
+commit 0e448a448e2c12f526ff004714587c2d3dcf04bf
+Author: Julio Cesar Perez <tsukiitou@gmail.com>
+Date:   Thu Jan 14 22:53:16 2016 -0600
+
+    creacion de estilos y pagina principal
+
+ index.html                                         |    9 +
+ startbootstrap-bare-1.0.4/LICENSE                  |  202 +
+ startbootstrap-bare-1.0.4/README.md                |   26 +
+ startbootstrap-bare-1.0.4/css/bootstrap.css        | 6760 ++++++++++++++++++++
+ startbootstrap-bare-1.0.4/css/bootstrap.min.css    |    6 +
+ .../fonts/glyphicons-halflings-regular.eot         |  Bin 0 -> 20127 bytes
+ .../fonts/glyphicons-halflings-regular.svg         |  288 +
+ .../fonts/glyphicons-halflings-regular.ttf         |  Bin 0 -> 45404 bytes
+ .../fonts/glyphicons-halflings-regular.woff        |  Bin 0 -> 23424 bytes
+ .../fonts/glyphicons-halflings-regular.woff2       |  Bin 0 -> 18028 bytes
+ startbootstrap-bare-1.0.4/index.html               |   94 +
+ startbootstrap-bare-1.0.4/js/bootstrap.js          | 2363 +++++++
+ startbootstrap-bare-1.0.4/js/bootstrap.min.js      |    7 +
+ startbootstrap-bare-1.0.4/js/jquery.js             |    4 +
+ 14 files changed, 9759 insertions(+)
+
+commit 8966fc7ae33bd1783eb0924010f507469421cfae
+Author: luis hdez <luishernandezutez@gmail.com>
+Date:   Thu Jan 14 22:47:44 2016 -0600
+
+    pequeño avance del trabjo
+
+ ROJO/android.3gp  | Bin 0 -> 3485834 bytes
+ ROJO/android.png  | Bin 0 -> 281922 bytes
+ ROJO/trabajo.html |  18 ++++++++++++++++++
+ 3 files changed, 18 insertions(+)
+
+commit 47ab85999960ebd2ea7bef8668bcdbc0a122062e
+Author: Luisxh <luishernandezutez@gmail.com>
+Date:   Thu Jan 14 19:09:11 2016 -0600
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+___________________________________________________________________________
+
+
+
